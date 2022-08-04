@@ -12,6 +12,18 @@ export const Container = styled.main`
     flex-direction: column;
     align-items: center;
     gap: 3.5rem;
+    max-width: 640px;
+    width: 100%;
+
+    p {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    padding: 16px;
   }
 `;
 

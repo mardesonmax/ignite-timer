@@ -13,6 +13,10 @@ export const Container = styled.main`
     font-size: 1.5rem;
     color: ${({ theme }) => theme['gray-100']};
   }
+
+  @media (max-width: 575.98px) {
+    padding: 16px;
+  }
 `;
 
 export const HistoryList = styled.div`

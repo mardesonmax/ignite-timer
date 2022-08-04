@@ -10,7 +10,6 @@ export const Container = styled.div`
 
   span {
     background: ${({ theme }) => theme['gray-700']};
-    padding: 2rem 1rem;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -20,19 +19,11 @@ export const Container = styled.div`
 
   @media (max-width: 767.98px) {
     font-size: 8rem;
-
-    span {
-      padding: 1rem;
-    }
   }
 
   @media (max-width: 575.98px) {
     font-size: 4rem;
     gap: 0.5rem;
-
-    span {
-      padding: 0.6rem;
-    }
   }
 `;
 
